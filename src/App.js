@@ -37,6 +37,7 @@ function App() {
   return (
     <div className="container">
       <Provider store={store}>
+        <h1>Lista de tarefas</h1>
         <Form />
         <List/> 
       </Provider>
